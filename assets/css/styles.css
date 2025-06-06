@@ -7,6 +7,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   /* margin: 50px; */
+  
 }
 
 h3 {
@@ -14,34 +15,57 @@ h3 {
     font-weight: 400;
 }
 
+.mainLetter {
+    font-weight: bold;
+}
+
 .navProject {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 6px 14px;
+  box-shadow: 0 0 10px gray;
+}
 
+.navProBtn {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    padding: 10px 16px;
+}
+
+.navProBtn:hover {    
+    background-color: rgba(149, 165, 166, 0.5);
 }
 
 .navPanel {
     display: flex;
+    /* gap: 30px; */
+}
 
+header {
+    text-align: center;
 }
 
 .headerImg {
     max-width: 100%;
     height: auto;
-    img
+    /* margin-left: auto;
+    margin-right: auto; */
+    
 }
 
 .sectHouse {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
 }
 
 .imgHouseUser {
-    max-width: 450px;
-    max-height: 250px;
+    max-width: 350px;
+    max-height: 200px;
 }
 
 .userCards {
