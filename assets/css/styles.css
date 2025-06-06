@@ -3,8 +3,64 @@
 }
 
 body {
-    font-family: Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  /* margin: 50px; */
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.navProject {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navPanel {
+    display: flex;
+
+}
+
+.headerImg {
+    max-width: 100%;
+    height: auto;
+    img
+}
+
+.sectHouse {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.imgHouseUser {
+    max-width: 450px;
+    max-height: 250px;
+}
+
+.userCards {
+    display: flex;
+
+    gap: 20px;
+        padding: 20px;
+
+
+}
+
+.poweredFooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.w3Footer {
+    color: white;
+}
